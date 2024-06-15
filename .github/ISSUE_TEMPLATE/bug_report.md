@@ -7,7 +7,7 @@ assignees: ''
 
 ---
 
-## Beta Testing Bug Feedback
+## Bug Feedback
 
 **Help us improve!** Report bugs you encounter using this template:
 
@@ -19,7 +19,6 @@ assignees: ''
 * **Platform:** (If applicable)
 * **Computer specification:**
 * **Screenshots:** (If applicable)
-* **Log file:** (Default: C:\Program Files\X-Plane Map Enhancement\resources\core\release\logs):
 
 **Optional:**
 
