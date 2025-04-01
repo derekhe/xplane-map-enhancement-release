@@ -23,4 +23,6 @@ Thank you for taking the time to report a bug! Before submitting, please check t
 
 - **Screenshots or Videos:**
 
+- **Latitude and Longittude of the bug area**
+
 ### Additional Information:
