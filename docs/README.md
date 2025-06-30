@@ -12,6 +12,7 @@ Welcome to the X-Plane Map Enhancement troubleshooting documentation.
 - **[Quick Fix Guide](QUICK_FIX.md)** - Fast solutions for common problems
 - **[Troubleshooting Guide](TROUBLESHOOTING.md)** - Comprehensive problem-solving guide
 - **[Known Issues](KNOWN_ISSUES.md)** - List of airports and areas with documented problems
+- **[KRDM Fix Checklist](KRDM_FIX_CHECKLIST.md)** - Step-by-step guide specifically for KRDM airport
 - **[Diagnostic Template](DIAGNOSTIC_TEMPLATE.md)** - Fill this out before reporting new issues
 
 ### For Developers/Contributors

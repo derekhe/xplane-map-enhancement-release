@@ -31,6 +31,7 @@
 Problem: Shows "77 photos loaded" but only default textures in X-Plane
 Quick Fix: Remove any custom KRDM airports → Clear cache → Restart → Re-download
 ```
+📋 **[Complete KRDM Fix Checklist](KRDM_FIX_CHECKLIST.md)** - Step-by-step guide
 
 ### KBHM (Birmingham, Alabama)  
 ```
