@@ -63,6 +63,8 @@ body:
       label: Screenshots or Videos
       description: If possible, please attach screenshots or videos to help illustrate the problem.
       placeholder: Drag-and-drop or paste images here
+    validations:
+      required: true
 
   - type: input
     id: location
