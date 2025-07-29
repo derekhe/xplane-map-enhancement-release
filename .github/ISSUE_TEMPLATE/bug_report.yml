@@ -1,0 +1,78 @@
+---
+name: Bug Report
+description: Report a bug for X-Plane Map Enhancement
+title: 'Bug: '
+labels:
+  - bug
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking the time to report a bug!  
+        Before submitting, please check the [user manual](https://github.com/derekhe/xplane-map-enhancement-release/wiki/Manual-EN) to ensure this is a bug and not a usage issue.
+
+  - type: checkboxes
+    id: manual_checked
+    attributes:
+      label: Manual Confirmation
+      description: Please confirm you have read the user manual before submitting.
+      options:
+        - label: I have read the user manual and confirmed my issue is not already addressed there.
+          required: true
+
+  - type: textarea
+    id: bug_description
+    attributes:
+      label: Description of the Issue
+      description: Please describe the bug in detail, including steps to reproduce if possible.
+      placeholder: A clear and concise description of what the bug is
+    validations:
+      required: true
+
+  - type: input
+    id: xplane_map_enhancement_version
+    attributes:
+      label: XPlane Map Enhancement Version
+      description: Enter the version number of XPlane Map Enhancement you are using (e.g., v1.7.0)
+      placeholder: e.g., v1.7.0
+    validations:
+      required: true
+
+  - type: input
+    id: base_package_version
+    attributes:
+      label: Base Package Version
+      description: Enter the version of the base package you are using (if applicable)
+      placeholder: e.g., v12.10
+    validations:
+      required: true
+
+  - type: input
+    id: device_id
+    attributes:
+      label: Device ID
+      description: Device ID can be found on the license page in the XPME app
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots or Videos
+      description: If possible, please attach screenshots or videos to help illustrate the problem.
+      placeholder: Drag-and-drop or paste images here
+
+  - type: input
+    id: location
+    attributes:
+      label: Latitude and Longitude of the bug area
+      description: Enter the approximate coordinates where the issue occurs (if applicable)
+      placeholder: e.g., 39.9042, 116.4074 (optional)
+
+  - type: textarea
+    id: additional_info
+    attributes:
+      label: Additional Information
+      description: Add any other relevant information here (optional)
