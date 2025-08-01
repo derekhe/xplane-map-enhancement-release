@@ -1,24 +1,12 @@
 ---
 name: Bug Report
 description: Report a bug for X-Plane Map Enhancement
+title: 
 labels:
   - bug
 assignees: []
----
 
 body:
-  - type: input
-    id: title
-    attributes:
-      label: Issue Title
-      description: Provide a concise title for the bug. Do not leave the default "Bug: ".
-      placeholder: Bug: [short description]
-      value: Bug: 
-    validations:
-      required: true
-      pattern: '^(?!Bug:\s*$).+'
-      errorMessage: 'Title cannot be the default "Bug: ". Please briefly describe the bug.'
-
   - type: markdown
     attributes:
       value: |
