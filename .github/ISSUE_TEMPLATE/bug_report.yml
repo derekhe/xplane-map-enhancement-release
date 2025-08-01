@@ -1,7 +1,14 @@
 ---
 name: Bug Report
 description: Report a bug for X-Plane Map Enhancement
-title: "Bug:"
+title: 
+  label: Bug Title
+  description: |
+    Please enter a concise and descriptive bug title.  
+    **Do NOT use the default "Bug: " title!**  
+    Example: "Map tiles not loading in v1.7.0 on Windows 11"
+  required: true
+  placeholder: e.g., Map tiles fail to load after update
 labels:
   - bug
 assignees: []
