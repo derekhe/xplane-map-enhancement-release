@@ -1,7 +1,7 @@
 ---
 name: Bug Report
 description: Report a bug for X-Plane Map Enhancement
-title: ''
+title: "Bug:"
 labels:
   - bug
 assignees: []
