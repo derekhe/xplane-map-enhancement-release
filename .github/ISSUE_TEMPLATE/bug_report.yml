@@ -31,6 +31,18 @@ body:
     validations:
       required: true
 
+  - type: dropdown
+    id: operating_system
+    attributes:
+      label: Operating System
+      description: Please select your operating system
+      options:
+        - Windows
+        - Mac
+      default: 0
+    validations:
+      required: true
+
   - type: input
     id: xplane_map_enhancement_version
     attributes:
