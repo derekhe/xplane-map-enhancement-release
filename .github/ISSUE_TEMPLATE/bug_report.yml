@@ -39,6 +39,7 @@ body:
       options:
         - Windows
         - Mac
+        - Linux
       default: 0
     validations:
       required: true
