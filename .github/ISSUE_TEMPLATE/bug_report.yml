@@ -18,7 +18,7 @@ body:
         > Reports with screenshots, logs, and reproduction steps are typically resolved **2–3x faster** than vague reports.
 
         Before submitting, please:
-        1. Check the [User Manual](https://github.com/derekhe/xplane-map-enhancement-release/wiki/Manual-EN) to ensure this is a bug and not a usage issue.
+        1. Check the [User Manual](https://www.aiflygo.com/docs/getting-started/) to ensure this is a bug and not a usage issue.
         2. Search [existing issues](https://github.com/derekhe/xplane-map-enhancement-release/issues) to avoid duplicates.
 
   - type: checkboxes
