@@ -1,1 +1,139 @@
----\nname: Bug Report\ndescription: Report a bug for X-Plane Map Enhancement\ntitle: "Bug:"\nlabels:\n  - bug\nassignees: []\n\nbody:\n  - type: markdown\n    attributes:\n      value: |\n        ## 🐛 Bug Report\n\n        Thank you for taking the time to report a bug! Your detailed report helps us fix issues faster.\n\n        > **💡 Tip:** The more information you provide, the faster we can diagnose and resolve the problem.  \n        > Reports with screenshots, logs, and reproduction steps are typically resolved **2–3x faster** than vague reports.\n\n        Before submitting, please:\n        1. Check the [User Manual](https://github.com/derekhe/xplane-map-enhancement-release/wiki/Manual-EN) to ensure this is a bug and not a usage issue.\n        2. Search [existing issues](https://github.com/derekhe/xplane-map-enhancement-release/issues) to avoid duplicates.\n\n  - type: checkboxes\n    id: preflight\n    attributes:\n      label: Pre-submission Checklist\n      description: Please confirm the following before submitting.\n      options:\n        - label: I have read the user manual and confirmed my issue is not already addressed there.\n          required: true\n        - label: I have searched existing issues and this is not a duplicate.\n          required: true\n\n  - type: textarea\n    id: bug_description\n    attributes:\n      label: 📋 Description of the Issue\n      description: |\n        Describe the bug clearly. A good description includes:\n        - **What happened** (actual behavior)\n        - **What you expected to happen**\n        - **Step-by-step instructions to reproduce the issue**\n      placeholder: |\n        Example:\n        1. Open the XPME app and navigate to the map view\n        2. Zoom in to level 14 near coordinates 39.9, 116.4\n        3. Tiles fail to load and show a blank area\n        \n        Expected: Map tiles should load correctly\n        Actual: Tiles remain blank with no error shown\n    validations:\n      required: true\n\n  - type: dropdown\n    id: operating_system\n    attributes:\n      label: 💻 Operating System\n      description: Please select your operating system.\n      options:\n        - Windows\n        - Mac\n        - Linux\n      default: 0\n    validations:\n      required: true\n\n  - type: input\n    id: xplane_map_enhancement_version\n    attributes:\n      label: 🔢 XPlane Map Enhancement Version\n      description: Enter the version number of XPlane Map Enhancement you are using. You can find this in the app's About page.\n      placeholder: e.g., v1.7.0\n    validations:\n      required: true\n\n  - type: input\n    id: base_package_version\n    attributes:\n      label: 📦 Base Package Version\n      description: Enter the version of the base package you are using. Found in the app settings or download page.\n      placeholder: e.g., v12.10\n    validations:\n      required: true\n\n  - type: input\n    id: device_id\n    attributes:\n      label: 🔑 Device ID\n      description: |\n        Your Device ID helps us look up your license and configuration.  \n        It can be found on the **License** page inside the XPME app.\n      placeholder: e.g., XXXX-XXXX-XXXX-XXXX\n    validations:\n      required: true\n\n  - type: textarea\n    id: screenshots\n    attributes:\n      label: 📸 Screenshots or Videos\n      description: |\n        **A picture is worth a thousand words.** Please attach screenshots or a short video showing the problem.  \n        - Drag-and-drop or paste images directly into this field.\n        - If the issue involves rendering, please include a full-screen capture.\n        - For intermittent issues, a screen recording is extremely helpful.\n      placeholder: Drag-and-drop or paste images/videos here\n    validations:\n      required: true\n\n  - type: input\n    id: location\n    attributes:\n      label: 📍 Latitude and Longitude of the Bug Area\n      description: |\n        If the issue is location-specific (e.g., missing or incorrect map data), please provide the coordinates where it occurs.  \n        You can find coordinates in X-Plane's map view or by right-clicking on Google Maps.\n      placeholder: e.g., 39.9042, 116.4074\n\n  - type: textarea\n    id: logs\n    attributes:\n      label: 📄 Log Files (Highly Recommended)\n      description: |\n        Log files are one of the **most helpful** pieces of information for diagnosing bugs.  \n        Please attach relevant log files from the XPME app or X-Plane.  \n        - XPME logs are typically found in the app's installation directory.\n        - X-Plane logs (`Log.txt`) are in the X-Plane root folder.\n      placeholder: Paste log content here or drag-and-drop log files\n\n  - type: textarea\n    id: additional_info\n    attributes:\n      label: ℹ️ Additional Information\n      description: |\n        Any other context that might help us understand the issue:\n        - Does the bug happen consistently or intermittently?\n        - Did it work in a previous version? If so, which one?\n        - Any recent changes to your setup (new plugins, OS update, etc.)?\n      placeholder: Add any other relevant information here\n
+---
+name: Bug Report
+description: Report a bug for X-Plane Map Enhancement
+title: "Bug:"
+labels:
+  - bug
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 🐛 Bug Report
+
+        Thank you for taking the time to report a bug! Your detailed report helps us fix issues faster.
+
+        > **💡 Tip:** The more information you provide, the faster we can diagnose and resolve the problem.  
+        > Reports with screenshots, logs, and reproduction steps are typically resolved **2–3x faster** than vague reports.
+
+        Before submitting, please:
+        1. Check the [User Manual](https://github.com/derekhe/xplane-map-enhancement-release/wiki/Manual-EN) to ensure this is a bug and not a usage issue.
+        2. Search [existing issues](https://github.com/derekhe/xplane-map-enhancement-release/issues) to avoid duplicates.
+
+  - type: checkboxes
+    id: preflight
+    attributes:
+      label: Pre-submission Checklist
+      description: Please confirm the following before submitting.
+      options:
+        - label: I have read the user manual and confirmed my issue is not already addressed there.
+          required: true
+        - label: I have searched existing issues and this is not a duplicate.
+          required: true
+
+  - type: textarea
+    id: bug_description
+    attributes:
+      label: 📋 Description of the Issue
+      description: |
+        Describe the bug clearly. A good description includes:
+        - **What happened** (actual behavior)
+        - **What you expected to happen**
+        - **Step-by-step instructions to reproduce the issue**
+      placeholder: |
+        Example:
+        1. Open the XPME app and navigate to the map view
+        2. Zoom in to level 14 near coordinates 39.9, 116.4
+        3. Tiles fail to load and show a blank area
+        
+        Expected: Map tiles should load correctly
+        Actual: Tiles remain blank with no error shown
+    validations:
+      required: true
+
+  - type: dropdown
+    id: operating_system
+    attributes:
+      label: 💻 Operating System
+      description: Please select your operating system.
+      options:
+        - Windows
+        - Mac
+        - Linux
+      default: 0
+    validations:
+      required: true
+
+  - type: input
+    id: xplane_map_enhancement_version
+    attributes:
+      label: 🔢 XPlane Map Enhancement Version
+      description: Enter the version number of XPlane Map Enhancement you are using. You can find this in the app's About page.
+      placeholder: e.g., v1.7.0
+    validations:
+      required: true
+
+  - type: input
+    id: base_package_version
+    attributes:
+      label: 📦 Base Package Version
+      description: Enter the version of the base package you are using. Found in the app settings or download page.
+      placeholder: e.g., v12.10
+    validations:
+      required: true
+
+  - type: input
+    id: device_id
+    attributes:
+      label: 🔑 Device ID
+      description: |
+        Your Device ID helps us look up your license and configuration.  
+        It can be found on the **License** page inside the XPME app.
+      placeholder: e.g., XXXX-XXXX-XXXX-XXXX
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: 📸 Screenshots or Videos
+      description: |
+        **A picture is worth a thousand words.** Please attach screenshots or a short video showing the problem.  
+        - Drag-and-drop or paste images directly into this field.
+        - If the issue involves rendering, please include a full-screen capture.
+        - For intermittent issues, a screen recording is extremely helpful.
+      placeholder: Drag-and-drop or paste images/videos here
+    validations:
+      required: true
+
+  - type: input
+    id: location
+    attributes:
+      label: 📍 Latitude and Longitude of the Bug Area
+      description: |
+        If the issue is location-specific (e.g., missing or incorrect map data), please provide the coordinates where it occurs.  
+        You can find coordinates in X-Plane's map view or by right-clicking on Google Maps.
+      placeholder: e.g., 39.9042, 116.4074
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: 📄 Log Files (Highly Recommended)
+      description: |
+        Log files are one of the **most helpful** pieces of information for diagnosing bugs.  
+        Please attach relevant log files from the XPME app or X-Plane.  
+        - XPME logs are typically found in the app's installation directory.
+        - X-Plane logs (`Log.txt`) are in the X-Plane root folder.
+      placeholder: Paste log content here or drag-and-drop log files
+
+  - type: textarea
+    id: additional_info
+    attributes:
+      label: ℹ️ Additional Information
+      description: |
+        Any other context that might help us understand the issue:
+        - Does the bug happen consistently or intermittently?
+        - Did it work in a previous version? If so, which one?
+        - Any recent changes to your setup (new plugins, OS update, etc.)?
+      placeholder: Add any other relevant information here
