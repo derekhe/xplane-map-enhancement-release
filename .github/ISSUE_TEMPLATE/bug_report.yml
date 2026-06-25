@@ -74,6 +74,17 @@ body:
     validations:
       required: true
 
+  - type: dropdown
+    id: base_package_type
+    attributes:
+      label: 📦 Base Package Type
+      description: Please select which base package you are using.
+      options:
+        - XP12 Original base package
+        - XPME Base Package
+    validations:
+      required: true
+
   - type: input
     id: base_package_version
     attributes:
